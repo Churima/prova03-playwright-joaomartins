@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { ai } from '@zerostep/playwright';
 
-test('Caso 3 - Usando ZeroStep AI para preencher formulário NoCaptcha', async ({ page }) => {
+test('Caso 3 - Usando ZeroStep AI para preencher formulário NoCaptcha Teste', async ({ page }) => {
   await page.goto('https://jdmdigital.co/demo/nocaptcha/');
   await page.waitForLoadState('domcontentloaded');
 
